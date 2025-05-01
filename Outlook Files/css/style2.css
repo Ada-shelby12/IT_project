@@ -1,0 +1,29 @@
+body{
+    background-image: url(/img/final.png.jpg);
+    background-size: cover;
+}
+.navbar{
+    width: 85%;
+    padding:35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+.logo{
+    width:120px ;
+    cursor: pointer;
+    margin: 20px;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    color: black;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
